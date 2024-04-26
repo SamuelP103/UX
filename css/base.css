@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #AF9FFF;
+    --primary-color-100: #D5CCFF;
+    --primary-color-300: #7F66FF;
+    
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --neutral-color: #e0e0e0;
+
+    --background-color: #1B1B1B;
+
+    --surface-color: #96969655;
+
+    --lobster-font: "Lobster", sans-serif;
+    --sans-font: "DM Sans", sans-serif;
+
+
+}
+
+.center-row {display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+html {
+    background-color: var(--background-color);
+}
+
+* {
+    font-family: var(--sans-font);
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
