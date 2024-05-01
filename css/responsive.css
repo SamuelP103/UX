@@ -1,0 +1,14 @@
+
+/* phone */
+@media(max-width:640px){
+    html{
+        font-size: 10px;
+    }
+}
+
+/* tablet */
+@media((min-width:641px) and (max-width)){
+    html{
+        font-size: 13px;
+    }
+}

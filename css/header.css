@@ -7,9 +7,10 @@ header{
 
 }
 .logo{
-    background-color: rebeccapurple;
+    color: rebeccapurple;
     width: 20%;
     height: 100%;
+    
     
 }
 nav{
@@ -35,4 +36,7 @@ nav{
 
 .nav-link a:hover {
     border-bottom: solid 0.1rem var(--primary-color);
+}
+.name {
+    font-size: 30px;
 }
